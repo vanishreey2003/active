@@ -34,7 +34,7 @@ class SquareRootGame:
 
         random.shuffle(options)
 
-        # Create buttons for each option
+        # Create buttons for each options
         for option in options:
             button = tk.Button(self.master, text=str(option), command=lambda x=option: self.check_answer(x))
             button.pack(pady=5)
@@ -62,7 +62,7 @@ class SquareRootGame:
             if isinstance(widget, tk.Button):
                 widget.destroy()
         
-        # Create new buttons for next round
+        # Create new buttons for next round 
         self.create_buttons()
 
 if __name__ == "__main__":
