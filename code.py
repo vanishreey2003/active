@@ -62,7 +62,7 @@ class SquareRootGame:
             if isinstance(widget, tk.Button):
                 widget.destroy()
         
-        # Create new buttons for next round 
+        # Create new buttons for next rounds
         self.create_buttons()
 
 if __name__ == "__main__":
